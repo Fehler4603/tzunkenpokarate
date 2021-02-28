@@ -393,6 +393,8 @@ figure{
     border-radius: 5px;
     width: 100px;
     margin-top: 10px;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
   }
 
 .form-email h3{
