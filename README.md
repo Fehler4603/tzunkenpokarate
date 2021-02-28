@@ -1,2 +1,2 @@
-# tzunkenpokarate
-Página web para promocionar Escuela de Artes Marciales "TZUN KENPO KARATE"
+# desarrollo-web
+Curso de desarrollo web online impartido por Leonidas Esteban Gonzalez.
