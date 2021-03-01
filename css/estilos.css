@@ -103,12 +103,12 @@ h2 {
     border: 1px solid gray; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .hero-image{
-    object-fit: cover;
+    object-fit: inherit;
 }
 
 .portfolio{
@@ -449,7 +449,7 @@ figure{
     }
 
     .hero-image{
-        position: absolute;
+        position: inherit;
         z-index: 1;
         left: 0;
         right: 0;
