@@ -1,181 +1,163 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Tz&uacute;n Kenpo Karate</title>
-    <link rel="icon" type="image/png" href="https://imgur.com/EzQBeOn.png">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px"> -->
-    <link rel="stylesheet" href="css/estilos.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile First</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="../rama-mobile/css/table.css" media="(min-width: 930px)"/>
 </head>
 <body>
-    <i class="icon-menu burger-button" id="burger-menu"></i>
-    <header class="header">
-        <div class="container">
-            <figure class="logo">
-                <img src="https://imgur.com/2lb2pNW.jpg" height="50" alt="Logo en https://imgur.com/CLybp1m">
-            </figure>
-        <nav class="menu">
-            <ol>
-                <li>
-                    <a class="link" href="#inicio">Inicio</a>
-                </li>
-                <li>
-                    <a class="link" href="#portafolio">Promociones <strong class="strongProyDes"></strong> </a>
-                </li>
-                <li>
-                    <a class="link" href="#eventos">Videos Youtube</a>
-                </li>
-                <li>
-                    <a class="link" href="#contacto">Contáctanos</a>
-                </li>
-            </ol>
-        </nav>
+  <header>
+     <img src="https://drive.google.com/uc?id=1b_xS7tWPUovqbDA92GffXldWclrIvA-G" alt="logo de la empresa" />
+     <div class="header--title-container">
+       <h1>La próxima revolución en el intercambio de criptomonedas</h1>
+       <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias</p>
+       <a class="header--button" href="#plans">Conoce Nuestros Planes <span></span></a>
+     </div>
+  </header>
+  <main>
+    <section class="main-exchange-container">
+      <div class="backgroundImg"></div>
+      <div class="main-exchange-containerr--title">
+        <h2>Visibilizamos todas las tasas de cambio</h2>
+        <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
+      </div>
+      <section class="main-tables-container">
+        <div class="main-corrency-table">
+          <div class="corrency-table--container">
+            <p class="corrency-table--title">Monedas</p>
+            <table>
+              <tr>
+                <td class="table__top-left justify-left">Bitcoin</td>
+                <td class="table__top-right table__right">$1.96 <span class="down1"></span></td>
+              </tr>
+              <tr>
+                <td class="justify-left">Ethereum</td>
+                <td class="table__right">$0.07<span class="down2 up2"></span></td>
+              </tr>
+              <tr>
+                <td class="justify-left">Ripple</td>
+                <td class="table__right">$2.15<span class="down3"></span></td>
+              </tr>
+              <tr>
+                <td class="table__bottom-left justify-left">Stellar</td>
+                <td class="table__bottom-right table__right">$4.96<span class="down4"></span></td>
+              </tr>
+            </table>
+          </div>
+          <div class="corrency-table--date">
+            <p><b>Actualizado:</b> 19 de julio 23:48</p>
+          </div>
         </div>
-    </header>
-   <section class="hero" id="inicio">
-        <div class="container">
-            <!-- <h1>
-                Hola! Soy <strong>Fehler Donadony Tzún Dávila</strong> <br/>Sensei en <strong>Tz&uacute;n Kenpo Karate</strong><br/>Escuela de <strong>Artes Marciales</strong>
-            </h1> -->
-            <img class="hero-image" src="https://imgur.com/6z3gNwv.jpg" width="auto" height="300" alt="imagen principal del sitio">
+        <div class="main-corrency-table">
+          <div class="corrency-table--container">
+            <p class="corrency-table--title2">Comisiones</p>
+            <table>
+              <tr>
+                <td class="table__top-left justify-left">Bitrade</td>
+                <td class="table__top-right table__right">$12.96</td>
+              </tr>
+              <tr>
+                <td class="justify-left">Bitprecio</td>
+                <td class="table__right">$13.07</td>
+              </tr>
+              <tr>
+                <td class="justify-left">Novadax</td>
+                <td class="table__right">$13.15</td>
+              </tr>
+              <tr>
+                <td class="table__bottom-left justify-left">Coinext</td>
+                <td class="table__bottom-right table__right">$14.96</td>
+              </tr>
+            </table>
+          </div>
+          <div class="corrency-table--date2">
+            <p><b>Actualizado:</b> 19 de julio 23:48</p>
+          </div>
         </div>
+      </section>
     </section>
-    <section id="portafolio" class="portfolio">
-        <div class="container">
-            <h2>Promociones por apertura de Tzún Kenpo Karate</h2>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-title">Descuentos al inscribirte</h3>
-                    <h6 class="project-course">Antes del 10 de Marzo</h6>
-                    <p class="project-date"><small><strong>Fecha inicio de clases: </strong>02/03/2021</small></p>
-                    <p class="project-url"><small><strong>Aldea El Salitre, Km 35 </strong>Frente a cancha "El Mirador"</small></p>
-                    <p class="project-description">La Escuela de Artes Marciales "Tzún Kenpo Karate" abre sus puertas con clases gratis el día 2 de marzo de 2021, empezando la clase 1: de 4 a 5 pm (Niños y niñas a partir de 5 años), clase 2: de 5 a 6 pm (Niños y niñas a partir de 5 años), clase 3: de 6 a 7 pm (Adolescentes y adultos), clase 4: de 7 a 8 pm (Adolescentes y adultos) </p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="project-image" src="https://imgur.com/vuuaCoH.jpg" width="500" alt="imagen de viaje">
-                </figure>
-            </article>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-title">Información</h3>
-                    <h6 class="project-course">Pregunte por nuestras promociones de apertura</h6>
-                    <p class="project-date"><small><strong>Clases gratuitas: </strong>02/03/2021</small></p>
-                    <p class="project-url"><small><strong>Aldea El Salitre, km 35 </strong>Frente a cancha "El Mirador"</small></p>
-                    <p class="project-description">Para niños, niñas, adolescentes y adultos: mujeres y hombres</p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="project-image" src="https://imgur.com/ndNk3F9.jpg" width="500" alt="imagen de viaje">
-                </figure>
-            </article>
-        </div>
+    <section class="main-product-detail">
+      <span class="product-detail--batata-logo"></span>
+      <div class="product-detail--title">
+        <h2>Creamos un producto sin comparación</h2>
+        <p>Confiable y diseñado para su uso diario.</p>
+      </div>
+      <section class="product-cards--container">
+        <article class="producto-detail--card1">
+          <span class="clock"></span>
+          <p class="product--card-title">Tiempo Real</p>
+          <p class="product--card-body">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
+        </article>
+        <article class="producto-detail--card1">
+          <span class="ojo"></span>
+          <p class="product--card-title">No hay tasas escondidas</p>
+          <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+        </article>
+        <article class="producto-detail--card1">
+          <span class="dolar"></span>
+          <p class="product--card-title">Compara monedas</p>
+          <p class="product--card-body">No más rumores, con Batabit sabrás el valor real de cada moneda en el mercado actual.</p>
+        </article>
+        <article class="producto-detail--card1">
+          <span class="chequear"></span>
+          <p class="product--card-title">Información confiable</p>
+          <p class="product--card-body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan. Para que esten al tanto de todo.</p>
+        </article>
+      </section>
     </section>
-    <div class="container">
-        <h2 class="event-list-title">Videos Youtube ¡Suscribete!</h2>
-    </div>
-    <section id="eventos" class="event-list">
-        <div class="container">
-                <article class="event">
-                    <figure class="event-imageContainer">
-                        <div class="flexible-video">
-                            <iframe class="youtube-video" width="560" height="315" src="https://youtu.be/ZBWfIKMdSfU" frameborder="0" allow="autoplay; encrypted-meda" allowfullscreen></iframe>
-                        </div>
-                    </figure>
-                    <div class="event-detail">
-                        <h3 class="event-title">Apertura de Tzún Kenpo Karate</h3>
-                        <p class="event-description">Video para promocionar la apertura de Escuela de Artes Marcialeas "Tzún Kenpo Karate" en Aldea El Salitre, Santa Rosa de Lima, Santa Rosa.</p>
-                        <a class="event-url" href="https://youtu.be/ZBWfIKMdSfU" target="_blank">Ver video</a>
-                    </div>
-                </article>
-                <article class="event">
-                    <figure class="event-imageContainer">
-                        <div class="flexible-video">
-                            <iframe class="youtube-video" width="560" height="315" src="https://youtu.be/Ej9rstrJjek" frameborder="0" allow="autoplay; encrypted-meda" allowfullscreen></iframe>
-                        </div>
-                    </figure>
-                    <div class="event-detail">
-                        <h3 class="event-title">Estreno de Tzún Kenpo Karate</h3>
-                        <p class="event-description">2 de marzo de 2021, apertura de Escuela de Artes Marciales "Tzún Kenpo Karate", en Aldea El Salitre, Santa Rosa de Lima. Ese día las clases son gratuitas.</p>
-                        <a class="event-url" href="https://youtu.be/Ej9rstrJjek" target="_blank">Ver video</a>
-                    </div>
-                </article>
-                <!-- <article class="event">
-                    <figure class="event-imageContainer">
-                            <video class="html-video" src="videos/f8.mp4" width="1280" height="720" controls></video>
-                    </figure>
-                    <div class="event-detail">
-                        <h3 class="event-title">Viaje al Pet&eacute;n, Guatemala</h3>
-                        <p class="event-description">Viaj&eacute; en Abril del 2019 al Pet&eacute;n con mis hermanos. Estuvimos en la isla de flores, en el zool&oacute;gico y con broce de oro en el gran TIKAL.</p>
-                        <a class="event-url" href="https://www.youtube.com/watch?v=NKtTJi8Bp6I" target="_blank">Porque Platzi</a>
-                    </div>
-                </article>
-                <article class="event">
-                    <figure class="event-imageContainer">
-                        <img class="event-image" src="https://imgur.com/ByYLMSx.jpg" width="500" alt="imagen de evento">
-                    </figure>
-                    <div class="event-detail">
-                        <h3 class="event-title">Viaje al Pet&eacute;n, Guatemala</h3>
-                        <p class="event-description">Viaj&eacute; en Abril del 2019 al Pet&eacute;n con mis hermanos. Estuvimos en la isla de flores, en el zool&oacute;gico y con broce de oro en el gran TIKAL.</p>
-                        <a class="event-url" href="https://www.youtube.com/watch?v=NKtTJi8Bp6I" target="_blank">Porque Platzi</a>
-                    </div>
-                </article> -->
-        </div>
+    <section class="bitcoin-img-container">
+      <h2>Conócelo hoy</h2>
     </section>
-    <section id="contacto" class="contact">
-            <div class="container">
-                <form action="/suscripcion/" class="form-email">
-                    <h3>¿Alguna duda, consulta o pregunta?</h3>
-                    <input type="text" placeholder="Escribe tu email" id="email" class="input-email">
-                    <button class="button">Enviar</button>
-                </form>
-                <div class="social">
-                    <!-- <a href="https://twitter.com/Dony" class="social-link twitter" target="blank"></a> -->
-                    <a href="https://facebook.com/TZUNKENPOKARATE" class="social-link facebook" target="blank"></a>
-                    <!-- <a href="https://github.com/Fehler4603" class="social-link github" target="blank"></a> -->
-                    <a href="https://instagram.com/tzun_kenpo_karate" class="social-link instagram" target="blank"></a>
-            </div>
-        </div>
+    <section id="plans" class="main-plans-container">
+      <div class="plans--title">
+        <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+        <p>Cualquier plan te da acceso completo a nuestra plataforma</p>
+      </div>
+      <section class="plans-container--slider">
+        <article class="plans-container--card">
+          <p class="recomendado">Recomendado</p>
+          <div class="plan-info-container">
+            <h3 class="plan-card--title">Pago Anual</h3>
+            <p class="plan-card--price"><span>$</span>99</p>
+            <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+            <button class="plan-card--ca">Escoger este <span></span></button>
+          </div>
+        </article>
+        <article class="plans-container--card">
+          <p class="confort">Confort</p>
+          <div class="plan-info-container">
+            <h3 class="plan-card--title">Pago Semestral</h3>
+            <p class="plan-card--price"><span>$</span>69</p>
+            <p class="plan-card--saving">*Ahorras $45 comparado al plan mensual.</p>
+            <button class="plan-card--ca">Escoger este <span></span></button>
+          </div>
+        </article>
+        <article class="plans-container--card">
+          <p class="basico">Básico</p>
+          <div class="plan-info-container">
+            <h3 class="plan-card--title">Pago Mensual</h3>
+            <p class="plan-card--price"><span>$</span>19</p>
+            <p class="plan-card--saving">Nuestro plan de pagos básico.</p>
+            <button class="plan-card--ca">Escoger este <span></span></button>
+          </div>
+        </article>
+      </section>
     </section>
-    <footer class="footer">
-        <div class="container">
-            <div>
-                <p>Tzún Kenpo Karate <img src="https://imgur.com/2lb2pNW.jpg" width="200px" height="50px" alt="platzi"> </p>
-            </div>
-            <div>
-                <p class="creditos">
-                    <br>Página web creada por Fehler ❤Tzún❤
-                </p>
-            </div>
-        </div>
-    </footer>
-    <script>
-        //console.log("probando");
-        //console.log(document.querySelector('.menu'));
-        const ipad = window.matchMedia('screen and (max-width: 767px)')
-        const menu = document.querySelector('.menu');
-        //console.log(menu);
-        const burgerButton = document.querySelector('#burger-menu');
-        //console.log(burgerButton);
-
-        ipad.addListener(validation);
-
-        function validation(event){
-            if (event.matches) {
-                burgerButton.addEventListener('click', hideshow)
-            }else{
-                burgerButton.removeEventListener('click', hideshow) 
-            }
-        }
-        validation (ipad);
-
-        function hideshow(){
-            if (menu.classList.contains('is-active')){
-                menu.classList.remove('is-active');
-            } else{
-                menu.classList.add('is-active');
-            }
-        }
-    </script>
+  </main>
+  <footer>
+    <section class="left">
+      <ul>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">Crunchbase</a></li>
+        <li><a href="#">Hackernews</a></li>
+      </ul>
+    </section>
+    <section class="right">
+      <img src="https://drive.google.com/uc?id=1Nl11jhiVOBHWRAaxpf5e5rQQf4jjq0-H" alt="logo de Batabit 2020">
+    </section>
+  </footer>
 </body>
-</html> 
+</html>
