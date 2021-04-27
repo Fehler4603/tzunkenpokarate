@@ -467,7 +467,7 @@
     min-width: 288px;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   
   .plans--title h2{
@@ -479,10 +479,12 @@
   }
   
   .plans--title p{
+    padding-top: 20px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: #757575;
+    text-align: justify;
   }
   
   .plans-container--slider{
