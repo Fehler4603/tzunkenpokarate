@@ -78,12 +78,12 @@
   
   .header--title-container .header--button{
     position: absolute;
-    left: calc(50% - 142px);
+    left: calc(50% - 147px);
     top: 270px;
     display: block;
     margin-top: 35px;
     padding: 15px;
-    width: 280px;
+    width: 290px;
     height: 48px;
     background-color: var(--off-white);
     /* sombra */
@@ -101,7 +101,7 @@
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('https://drive.google.com/uc?id=');
+    background-image: url('https://drive.google.com/uc?id=1Bk_Ni-AamtYJ9S3TPSlZ_NgHWvBrN1bv');
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -437,18 +437,18 @@
   }
   
   .bitcoin-img-container{
-    width: 100%;
+    width: 500px;
     min-width: 320px;
-    height: 50vh;
-    background-image: url('https://drive.google.com/uc?id=1yYC0NJbn3RiXWB3QtsK9Iea_le3vYEt8');
+    height: 60vh;
+    background-image: url('https://drive.google.com/uc?id=1TbiZdWaGpDPWko_0eKvZMw7e0qbNjo6Y');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   
   .bitcoin-img-container h2{
-    padding-top: 60px;
-    font-size: 2.4rem;
+    padding-top: 195px;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);

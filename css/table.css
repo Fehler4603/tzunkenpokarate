@@ -20,6 +20,14 @@
   justify-content: center;
   overflow-x: hidden;
 }
+.bitcoin-img-container h2 {
+  padding-top: 280px;
+  font-size: 3.8rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+  text-align: center;
+} 
 /* .plans-container--slider{
   display: flex;
   height: 316px;
