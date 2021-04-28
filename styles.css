@@ -445,7 +445,16 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+  .bitcoin-img-container2{
+    width: 100%;
+    min-width: 220px;
+    height: 38vh;
+    background-image: url('https://drive.google.com/uc?id=1aUpQUbDaD6M1jxHAr1goeD5NSA8V9-4o');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .bitcoin-img-container h2{
     padding-top: 195px;
     font-size: 2rem;
