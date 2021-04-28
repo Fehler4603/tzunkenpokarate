@@ -69,8 +69,8 @@
   }
   
   .header--title-container p{
-    margin-top: 10px;
-    font-size: 1.8rem;
+    margin-top: 20px;
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--soft-orange);
@@ -489,10 +489,11 @@
   
   .plans-container--slider{
     display: flex;
-    height: 316px;
+    height: 290px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    background: antiquewhite;
     /* margin-right: 45px;
     margin-left: 45px; 
     seria buena opcion para que se mire sola cada tarjeta*/
@@ -505,7 +506,7 @@
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 5px 0;
+    margin: 25px 5px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;

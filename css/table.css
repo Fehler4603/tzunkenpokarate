@@ -28,6 +28,10 @@
   color: var(--just-white);
   text-align: center;
 } 
+
+.plans--title p {
+  text-align: center;
+}
 /* .plans-container--slider{
   display: flex;
   height: 316px;
